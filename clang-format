@@ -1,0 +1,71 @@
+---
+BasedOnStyle: WebKit
+ColumnLimit: 100
+AccessModifierOffset: -2
+AlignAfterOpenBracket: BlockIndent
+AlignArrayOfStructures: Left
+AlignTrailingComments:
+  Kind: Leave
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLambdasOnASingleLine: Inline
+BinPackArguments: false
+BinPackParameters: OnePerLine
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterObjCDeclaration: false
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakArrays: false
+BreakBeforeBraces: Custom
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterComma
+BreakTemplateDeclarations: Yes
+Cpp11BracedListStyle: true
+EnumTrailingComma: Insert
+IncludeCategories:
+  - Regex: ^<.*>$
+    Priority: 1
+    CaseSensitive: false
+  - Regex: ^".*"$
+    Priority: 2
+    CaseSensitive: false
+IndentCaseBlocks: true
+IndentGotoLabels: false
+IndentPPDirectives: AfterHash
+InsertNewlineAtEOF: true
+KeepEmptyLines:
+  AtEndOfFile: true
+  AtStartOfBlock: false
+NamespaceIndentation: All
+PPIndentWidth: 1
+PackConstructorInitializers: CurrentLine
+PointerAlignment: Right
+ReflowComments: IndentOnly
+RemoveEmptyLinesInUnwrappedLines: true
+SeparateDefinitionBlocks: Always
+SpaceAfterTemplateKeyword: false
+SpaceBeforeParensOptions:
+  AfterFunctionDeclarationName: true
+  AfterFunctionDefinitionName: true
+  AfterOverloadedOperator: true
+  AfterRequiresInClause: true
+  AfterRequiresInExpression: true
+SpaceInEmptyBlock: false
+TabWidth: 4
