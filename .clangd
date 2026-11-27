@@ -1,0 +1,31 @@
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+
+  ClangTidy:
+    Add: [bugprone-*, performance-*, modernize-*]
+    Remove:
+      - bugprone-easily-swappable-parameters
+      - bugprone-multi-level-implicit-pointer-conversion
+      - modernize-use-trailing-return-type
+      - modernize-use-auto
+      - modernize-use-override
+    
+
+CompileFlags:
+  Compiler: c++
+  Add: [-Wextra, -Werror, -Wall, -Iinc, -Iincs, -Iincludes, -Iinclude]
+  BuiltinHeaders: QueryDriver
+
+InlayHints:
+  DefaultArguments: true
+  TypeNameLimit: 0
+
+Hover:
+  ShowAKA: true
+
+Style:
+  QuotedHeaders: ["incs/.*", "inc/.*", "includes/.*", "include/.*"]
+
+Documentation:
+  CommentFormat: Doxygen

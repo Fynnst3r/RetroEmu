@@ -1,1 +1,5 @@
-#include "../inc/System.hpp"
+#include "System.hpp"
+
+void fn()
+{
+}

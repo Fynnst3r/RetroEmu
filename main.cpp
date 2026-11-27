@@ -1,5 +1,7 @@
-#include "inc/retroEmu.hpp"
 
-int main() {
-	std::cout << "hi\n";
+#include <iostream>
+
+int main()
+{
+    std::cout << "hi\n";
 }

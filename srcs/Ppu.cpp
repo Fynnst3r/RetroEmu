@@ -1,2 +1,2 @@
-#include "../inc/Ppu.hpp"
+#include "Ppu.hpp"
 
