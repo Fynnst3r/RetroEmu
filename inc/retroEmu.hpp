@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-#include "System.hpp"
 #include "Cpu.hpp"
-#include "Ram.hpp"
 #include "Ppu.hpp"
+#include "Ram.hpp"
+#include "System.hpp"
